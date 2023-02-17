@@ -1,5 +1,6 @@
 # AI-Chat-Email-Analytics-GUI
-Analyze chat/email data for ediscovery, customer sentiment, HR and more with Azure Cognitive Services. This GUI uses Pandas, Tkinter, and requests to extract insights via sentiment analysis, keyphrases, and named entity recognition. Developed by MahumTech, import your data and filter it based on email addresses, then view results in a new window.
+
+Analyze chat/email data for ediscovery, customer sentiment, HR, and more with Azure Cognitive Services. This GUI uses Pandas, Tkinter, and requests to extract insights via sentiment analysis, keyphrases, and named entity recognition. Developed by MahumTech, import your data and filter it based on email addresses, then view results in a new window.
 
 ## Use Cases
 
@@ -11,7 +12,7 @@ Here are ten ways this code can be used to analyze chat or email data:
 4. **Marketing Campaigns**: Analyze customer emails to identify customer preferences and improve marketing campaigns.
 5. **Product Feedback**: Analyze customer emails to identify product feedback and improve product development.
 6. **Fraud Detection**: Analyze chat data to identify fraudulent behavior and prevent fraud.
-7. **Competitor Analysis**: Analyze customer emails to identify competitor mentions competitor mentions and sentiment to gain a competitive edge.
+7. **Competitor Analysis**: Analyze customer emails to identify competitor mentions and sentiment to gain a competitive edge.
 8. **Sales Strategy**: Analyze customer emails to identify common questions or issues and tailor sales strategies accordingly.
 9. **Market Research**: Analyze customer emails to identify industry trends and gather market research data.
 10. **Brand Reputation**: Analyze customer emails to identify negative sentiment and improve brand reputation.
@@ -20,7 +21,7 @@ Here are ten ways this code can be used to analyze chat or email data:
 
 1. Clone this repository.
 2. Install the required libraries using `pip install -r requirements.txt`.
-3. Run `python main.py` to start the GUI.
+3. Run `AI-Chat-Email-Analytics-GUI.py` to start the GUI.
 
 The GUI consists of several input widgets:
 
@@ -54,22 +55,27 @@ The GUI consists of several input widgets, including:
 
 When the user clicks the **Analyze** button, the tool imports the email or chat data into a Pandas DataFrame, filters it based on the sender and receiver email addresses, and performs sentiment analysis, keyphrase extraction, named entity recognition, and known entity linking using Azure Cognitive Services. The results are saved to a CSV file and displayed in a table in a new window.
 
-The tool also includes a cache object to optimize API performance by caching results to avoid duplicate calls. This improves the tool's performance and reduces the number of API calls required.
-
 ## Limitations
-We have not implemented input validation. It may not work as expected if you enter invalid input.
-We have not implemented robust error handling. It may not work as expected if an error occurs.
-We have not tested this tool with other types of data. It may not work with other types of data.
-We have not tested this tool with other types of Azure Cognitive Services APIs. It may not work with other types of APIs.
+
+There are a few limitations to this tool:
+
+- Input validation: We have not implemented input validation. The tool may not work as expected if you enter invalid input.
+- Error handling: We have not implemented robust error handling. The tool may not work as expected if an error occurs.
+- Data types: We have only tested this tool with email and chat data in CSV format. It may not work with other types of data.
+- API types: We have only tested this tool with the Azure Cognitive Services APIs for sentiment analysis, keyphrase extraction, named entity recognition, and entity linking. It may not work with other types of APIs.
 
 ## Contributing
+
 We welcome contributions to improve the codebase. Feel free to submit a pull request.
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
+
 For more information, contact us at info@mahumtech.com or visit our website at https://mahumtech.com.
 
 ## Disclaimer
+
 This code is provided as-is with no warranty or support. Use at your own risk.
