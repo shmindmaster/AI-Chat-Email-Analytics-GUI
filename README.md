@@ -1,6 +1,21 @@
 # AI-Chat-Email-Analytics-GUI
 Analyze chat/email data for ediscovery, customer sentiment, HR and more with Azure Cognitive Services. This GUI uses Pandas, Tkinter, and requests to extract insights via sentiment analysis, keyphrases, and named entity recognition. Developed by MahumTech, import your data and filter it based on email addresses, then view results in a new window.
 
+## Use Cases
+
+Here are ten ways this code can be used to analyze chat or email data:
+
+1. **eDiscovery**: Analyze email data to identify relevant documents for eDiscovery purposes.
+2. **Customer Sentiment Analysis**: Analyze customer emails to determine sentiment and identify areas for improvement.
+3. **HR Complaints**: Analyze employee emails to identify HR complaints and improve the workplace.
+4. **Marketing Campaigns**: Analyze customer emails to identify customer preferences and improve marketing campaigns.
+5. **Product Feedback**: Analyze customer emails to identify product feedback and improve product development.
+6. **Fraud Detection**: Analyze chat data to identify fraudulent behavior and prevent fraud.
+7. **Competitor Analysis**: Analyze customer emails to identify competitor mentions competitor mentions and sentiment to gain a competitive edge.
+8. **Sales Strategy**: Analyze customer emails to identify common questions or issues and tailor sales strategies accordingly.
+9. **Market Research**: Analyze customer emails to identify industry trends and gather market research data.
+10. **Brand Reputation**: Analyze customer emails to identify negative sentiment and improve brand reputation.
+
 ## Usage
 
 1. Clone this repository.
@@ -41,20 +56,11 @@ When the user clicks the **Analyze** button, the tool imports the email or chat 
 
 The tool also includes a cache object to optimize API performance by caching results to avoid duplicate calls. This improves the tool's performance and reduces the number of API calls required.
 
-## Use Cases
-
-Here are ten ways this code can be used to analyze chat or email data:
-
-1. **eDiscovery**: Analyze email data to identify relevant documents for eDiscovery purposes.
-2. **Customer Sentiment Analysis**: Analyze customer emails to determine sentiment and identify areas for improvement.
-3. **HR Complaints**: Analyze employee emails to identify HR complaints and improve the workplace.
-4. **Marketing Campaigns**: Analyze customer emails to identify customer preferences and improve marketing campaigns.
-5. **Product Feedback**: Analyze customer emails to identify product feedback and improve product development.
-6. **Fraud Detection**: Analyze chat data to identify fraudulent behavior and prevent fraud.
-7. **Competitor Analysis**: Analyze customer emails to identify competitor mentions competitor mentions and sentiment to gain a competitive edge.
-8. **Sales Strategy**: Analyze customer emails to identify common questions or issues and tailor sales strategies accordingly.
-9. **Market Research**: Analyze customer emails to identify industry trends and gather market research data.
-10. **Brand Reputation**: Analyze customer emails to identify negative sentiment and improve brand reputation.
+## Limitations
+We have not implemented input validation. It may not work as expected if you enter invalid input.
+We have not implemented robust error handling. It may not work as expected if an error occurs.
+We have not tested this tool with other types of data. It may not work with other types of data.
+We have not tested this tool with other types of Azure Cognitive Services APIs. It may not work with other types of APIs.
 
 ## Contributing
 We welcome contributions to improve the codebase. Feel free to submit a pull request.
